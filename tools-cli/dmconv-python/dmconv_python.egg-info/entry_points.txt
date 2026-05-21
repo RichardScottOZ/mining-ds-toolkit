@@ -1,0 +1,2 @@
+[console_scripts]
+dmconv-python = dmconv_py.cli:main

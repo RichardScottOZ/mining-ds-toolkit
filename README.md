@@ -30,7 +30,7 @@ Planned additions for this tool include:
 
 This list will grow as the toolkit evolves.
 
-- [ ] Datamine → Parquet converter (Go + R)
+- [ ] Datamine → Parquet converter (Go + R + Python)
 - [ ] Python runner (Go)
 - [ ] R runner (Go)
 - [ ] kNN text classifier (Go + Odin)
