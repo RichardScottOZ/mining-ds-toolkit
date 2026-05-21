@@ -46,7 +46,7 @@ def run_out(args: argparse.Namespace) -> int:
         output = source.with_suffix(".parquet")
         write_parquet(data, output)
 
-    print(f"Writen to {output}")
+    print(f"Written to {output}")
     return 0
 
 

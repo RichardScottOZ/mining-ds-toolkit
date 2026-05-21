@@ -1,4 +1,4 @@
-# Datamine Studio Filde Converter
+# Datamine Studio File Converter
 
 This folder contains the Go implementation of the Datamine Studio mining software binary file converter. It is the production version of the tool: fast, portable, dependency‑free, and suitable for integration into mining data science workflows.
 
