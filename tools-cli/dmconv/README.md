@@ -1,6 +1,8 @@
-# Datamine Studio Filde Converter
+# Datamine Studio File Converter
 
 This folder contains the Go implementation of the Datamine Studio mining software binary file converter. It is the production version of the tool: fast, portable, dependency‑free, and suitable for integration into mining data science workflows.
+
+A Python version now sits alongside it in `../dmconv-python/`.
 
 A legacy R version stored in the `legacy/` folder and an R with C version stored in the `specification/` folder are included to show the evolution of the tool from R to C to Go.
 

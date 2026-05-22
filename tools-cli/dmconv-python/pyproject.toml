@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dmconv-python"
+version = "2026.5"
+description = "Python Datamine Studio .dm converter"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pyarrow==24.0.0",
+]
+
+[project.scripts]
+dmconv-python = "dmconv_py.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["dmconv_py*"]

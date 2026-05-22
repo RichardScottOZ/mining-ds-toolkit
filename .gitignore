@@ -31,3 +31,11 @@ go.work.sum
 # Files
 .DS_Store
 .Rhistory
+
+# Python
+*.pyc
+**/__pycache__/
+*.egg-info/
+
+# Local build outputs
+tools-cli/dmconv/dmconv
